@@ -3,6 +3,7 @@ from turtle import Turtle
 
 MOVE_DISTANCE = 40
 
+
 class Froggy(Turtle):
 
     def __init__(self):
@@ -15,7 +16,7 @@ class Froggy(Turtle):
 
     def move(self):
         self.forward(MOVE_DISTANCE)
-    
+
     def restart_level(self):
         self.hideturtle()
         self.setpos(0, -280)
