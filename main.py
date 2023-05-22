@@ -24,7 +24,7 @@ screen.listen()
 
 scoreboard = Scoreboard()
 
-#### car list moved to car.py:
+###### car list moved to car.py:
 # car = Car()
 # car.shape(random.choice(car_pics))
 # #car.resizemode('user')
